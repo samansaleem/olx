@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    padding-top: 8px;
+    background-color: rgb(168, 197, 202);
+}
+
+.input1{
+    position: relative;
+    
+}
+.search-icon{
+    position: absolute;
+    top: 13px;
+    left: 5px;
+}
+#search-1{
+    width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#search-1::placeholder{
+    padding-left: 35px;
+    color: black
+}
+#search-2{
+    width: 90%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#search-2::placeholder{
+    color: black;
+    padding-left: 15px;
+}
+#search-btn{
+    padding: 13px;
+    background-color: #002f34;
+    color: white;
+    border: none;
+    margin-left: -5px;
+    border-radius: 4px;
+}
+.input2{
+    padding: 0;
+    margin: 0;
+    width: 550px;
+    
+}
+#link{
+    color: #2f565a;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+#sell-btn{
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 35%;
+    border-left: 3px solid red;
+    border-right: 3px solid blue;
+    border-top: 3px solid green;
+    border-bottom: 3px solid yellow;
+    text-align: center;
+    font-size: 90%;
+    position: absolute;
+    left: 90%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.link{
+    margin-top: 15px;
+}
